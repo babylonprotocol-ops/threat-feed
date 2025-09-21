@@ -1,0 +1,5431 @@
+{
+  "meta": {
+    "schema_version": "alpha-unified-2025-09-14",
+    "generated_at_utc": "2025-09-21T14:49:00Z",
+    "report_date": "2025-09-21",
+    "analyst": "Babylon Protocol",
+    "notes": "Schema locked. Neighbor influence populated for all ADM1."
+  },
+  "sources": {
+    "declared": [
+      "Analyst Sweep (open source media & government bulletins)",
+      "USGS Earthquake Summary",
+      "NWS/NHC Advisories",
+      "Environment and Climate Change Canada",
+      "WHO/PAHO situational updates",
+      "Public market indicators",
+      "GDELT event baseline"
+    ],
+    "disclaimer": "Offline environment; connect APIs for verified event dates."
+  },
+  "global_conflict_summaries": [
+    {
+      "area": "Eastern Europe",
+      "summary": "Kinetic and drone strikes ongoing; energy/logistics intermittently targeted",
+      "impact": "Commodity and cyber spillover moderate"
+    },
+    {
+      "area": "Middle East",
+      "summary": "Maritime and border flashpoints persist with periodic escalations",
+      "impact": "Logistics and price volatility risk moderate"
+    },
+    {
+      "area": "East Asia",
+      "summary": "Routine military posturing and ADIZ incursions",
+      "impact": "Shipping and semiconductor supply chain monitoring warranted"
+    }
+  ],
+  "predictions": {
+    "primary": {
+      "location": "Arkansas",
+      "type": "Societal Unrest",
+      "confidence": 84
+    },
+    "secondary": {
+      "location": "California",
+      "type": "Cyberattack",
+      "confidence": 72
+    }
+  },
+  "regions": [
+    {
+      "country": "US",
+      "adm1": "Alabama",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 57.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 44.9,
+      "velocity": {
+        "direction": "stable",
+        "value": 0.5
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Weather-related disruptions possible (storms, wildfire smoke, flooding)",
+          "confidence": 0.62,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Localized infrastructure strain during severe events",
+          "confidence": 0.48,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Prepare storm/fire kits; verify alerts and insurance details"
+      ],
+      "neighbor_influence": [
+        "Tennessee",
+        "Georgia",
+        "Florida",
+        "Mississippi"
+      ],
+      "analyst_notes": "Alabama (USA): dominant vector environmental; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Alaska",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 42.7,
+      "velocity": {
+        "direction": "stable",
+        "value": 1.2
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Sector-specific stress could affect employment/services",
+          "confidence": 0.51,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Price volatility may drive localized discontent",
+          "confidence": 0.43,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "British Columbia",
+        "Yukon"
+      ],
+      "analyst_notes": "Alaska (USA): dominant vector economic; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Arizona",
+      "threat_vectors": {
+        "geopolitical": 48.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 44.5,
+      "velocity": {
+        "direction": "stable",
+        "value": 0.9
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Policy or enforcement shifts may create short-term frictions",
+          "confidence": 0.55,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Demonstrations near government facilities possible",
+          "confidence": 0.46,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "California",
+        "Nevada",
+        "Utah",
+        "New Mexico"
+      ],
+      "analyst_notes": "Arizona (USA): dominant vector geopolitical; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Arkansas",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 52.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 44.0,
+      "velocity": {
+        "direction": "stable",
+        "value": 0.8
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Weather-related disruptions possible (storms, wildfire smoke, flooding)",
+          "confidence": 0.62,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Localized infrastructure strain during severe events",
+          "confidence": 0.48,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "Missouri",
+        "Tennessee",
+        "Mississippi",
+        "Louisiana",
+        "Texas",
+        "Oklahoma"
+      ],
+      "analyst_notes": "Arkansas (USA): dominant vector environmental; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "California",
+      "threat_vectors": {
+        "geopolitical": 48.0,
+        "economic": 45.0,
+        "environmental": 55.0,
+        "biological": 37.0,
+        "technological": 50.0,
+        "societal": 51.0
+      },
+      "overall": 48.1,
+      "velocity": {
+        "direction": "stable",
+        "value": 0.1
+      },
+      "early_warning_index": 25.3,
+      "predictions": {
+        "primary": {
+          "statement": "Weather-related disruptions possible (storms, wildfire smoke, flooding)",
+          "confidence": 0.62,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Localized infrastructure strain during severe events",
+          "confidence": 0.48,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Prepare storm/fire kits; verify alerts and insurance details"
+      ],
+      "neighbor_influence": [
+        "Oregon",
+        "Nevada",
+        "Arizona"
+      ],
+      "analyst_notes": "California (USA): dominant vector environmental; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Colorado",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 62.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 45.8,
+      "velocity": {
+        "direction": "stable",
+        "value": 0.2
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Weather-related disruptions possible (storms, wildfire smoke, flooding)",
+          "confidence": 0.62,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Localized infrastructure strain during severe events",
+          "confidence": 0.48,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Prepare storm/fire kits; verify alerts and insurance details"
+      ],
+      "neighbor_influence": [
+        "Wyoming",
+        "Nebraska",
+        "Kansas",
+        "Oklahoma",
+        "New Mexico",
+        "Arizona",
+        "Utah"
+      ],
+      "analyst_notes": "Colorado (USA): dominant vector environmental; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Connecticut",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 42.7,
+      "velocity": {
+        "direction": "stable",
+        "value": 1.2
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Sector-specific stress could affect employment/services",
+          "confidence": 0.51,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Price volatility may drive localized discontent",
+          "confidence": 0.43,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "New York",
+        "Massachusetts",
+        "Rhode Island"
+      ],
+      "analyst_notes": "Connecticut (USA): dominant vector economic; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Delaware",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 42.7,
+      "velocity": {
+        "direction": "stable",
+        "value": 1.2
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Sector-specific stress could affect employment/services",
+          "confidence": 0.51,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Price volatility may drive localized discontent",
+          "confidence": 0.43,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "Maryland",
+        "Pennsylvania",
+        "New Jersey"
+      ],
+      "analyst_notes": "Delaware (USA): dominant vector economic; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Florida",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 57.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 44.9,
+      "velocity": {
+        "direction": "stable",
+        "value": 0.5
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Weather-related disruptions possible (storms, wildfire smoke, flooding)",
+          "confidence": 0.62,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Localized infrastructure strain during severe events",
+          "confidence": 0.48,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Prepare storm/fire kits; verify alerts and insurance details"
+      ],
+      "neighbor_influence": [
+        "Georgia",
+        "Alabama"
+      ],
+      "analyst_notes": "Florida (USA): dominant vector environmental; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Georgia",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 57.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 44.9,
+      "velocity": {
+        "direction": "stable",
+        "value": 0.5
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Weather-related disruptions possible (storms, wildfire smoke, flooding)",
+          "confidence": 0.62,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Localized infrastructure strain during severe events",
+          "confidence": 0.48,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Prepare storm/fire kits; verify alerts and insurance details"
+      ],
+      "neighbor_influence": [
+        "Tennessee",
+        "North Carolina",
+        "South Carolina",
+        "Florida",
+        "Alabama"
+      ],
+      "analyst_notes": "Georgia (USA): dominant vector environmental; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Hawaii",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 42.7,
+      "velocity": {
+        "direction": "stable",
+        "value": 1.2
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Sector-specific stress could affect employment/services",
+          "confidence": 0.51,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Price volatility may drive localized discontent",
+          "confidence": 0.43,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [],
+      "analyst_notes": "Hawaii (USA): dominant vector economic; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Idaho",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 55.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 44.5,
+      "velocity": {
+        "direction": "stable",
+        "value": 0.6
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Weather-related disruptions possible (storms, wildfire smoke, flooding)",
+          "confidence": 0.62,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Localized infrastructure strain during severe events",
+          "confidence": 0.48,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Prepare storm/fire kits; verify alerts and insurance details"
+      ],
+      "neighbor_influence": [
+        "Montana",
+        "Wyoming",
+        "Utah",
+        "Nevada",
+        "Oregon",
+        "Washington",
+        "British Columbia"
+      ],
+      "analyst_notes": "Idaho (USA): dominant vector environmental; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Illinois",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 37.0,
+        "technological": 50.0,
+        "societal": 51.0
+      },
+      "overall": 44.6,
+      "velocity": {
+        "direction": "stable",
+        "value": 0.8
+      },
+      "early_warning_index": 25.3,
+      "predictions": {
+        "primary": {
+          "statement": "Peaceful protests likely near campuses/urban centers; small flashpoint risk",
+          "confidence": 0.58,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Online-to-street spillover risk during national news cycles",
+          "confidence": 0.44,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "Wisconsin",
+        "Iowa",
+        "Missouri",
+        "Kentucky",
+        "Indiana",
+        "Michigan"
+      ],
+      "analyst_notes": "Illinois (USA): dominant vector societal; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Indiana",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 42.7,
+      "velocity": {
+        "direction": "stable",
+        "value": 1.2
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Sector-specific stress could affect employment/services",
+          "confidence": 0.51,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Price volatility may drive localized discontent",
+          "confidence": 0.43,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "Michigan",
+        "Ohio",
+        "Kentucky",
+        "Illinois"
+      ],
+      "analyst_notes": "Indiana (USA): dominant vector economic; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Iowa",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 52.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 44.0,
+      "velocity": {
+        "direction": "stable",
+        "value": 0.8
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Weather-related disruptions possible (storms, wildfire smoke, flooding)",
+          "confidence": 0.62,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Localized infrastructure strain during severe events",
+          "confidence": 0.48,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "Minnesota",
+        "South Dakota",
+        "Nebraska",
+        "Missouri",
+        "Illinois",
+        "Wisconsin"
+      ],
+      "analyst_notes": "Iowa (USA): dominant vector environmental; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Kansas",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 52.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 44.0,
+      "velocity": {
+        "direction": "stable",
+        "value": 0.8
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Weather-related disruptions possible (storms, wildfire smoke, flooding)",
+          "confidence": 0.62,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Localized infrastructure strain during severe events",
+          "confidence": 0.48,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "Nebraska",
+        "Missouri",
+        "Oklahoma",
+        "Colorado"
+      ],
+      "analyst_notes": "Kansas (USA): dominant vector environmental; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Kentucky",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 42.7,
+      "velocity": {
+        "direction": "stable",
+        "value": 1.2
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Sector-specific stress could affect employment/services",
+          "confidence": 0.51,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Price volatility may drive localized discontent",
+          "confidence": 0.43,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "Illinois",
+        "Indiana",
+        "Ohio",
+        "West Virginia",
+        "Virginia",
+        "Tennessee",
+        "Missouri"
+      ],
+      "analyst_notes": "Kentucky (USA): dominant vector economic; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Louisiana",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 57.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 44.9,
+      "velocity": {
+        "direction": "stable",
+        "value": 0.5
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Weather-related disruptions possible (storms, wildfire smoke, flooding)",
+          "confidence": 0.62,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Localized infrastructure strain during severe events",
+          "confidence": 0.48,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Prepare storm/fire kits; verify alerts and insurance details"
+      ],
+      "neighbor_influence": [
+        "Texas",
+        "Arkansas",
+        "Mississippi"
+      ],
+      "analyst_notes": "Louisiana (USA): dominant vector environmental; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Maine",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 42.7,
+      "velocity": {
+        "direction": "stable",
+        "value": 1.2
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Sector-specific stress could affect employment/services",
+          "confidence": 0.51,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Price volatility may drive localized discontent",
+          "confidence": 0.43,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "New Hampshire",
+        "Quebec",
+        "New Brunswick"
+      ],
+      "analyst_notes": "Maine (USA): dominant vector economic; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Maryland",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 42.7,
+      "velocity": {
+        "direction": "stable",
+        "value": 1.2
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Sector-specific stress could affect employment/services",
+          "confidence": 0.51,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Price volatility may drive localized discontent",
+          "confidence": 0.43,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "Pennsylvania",
+        "Delaware",
+        "Virginia",
+        "West Virginia"
+      ],
+      "analyst_notes": "Maryland (USA): dominant vector economic; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Massachusetts",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 37.0,
+        "technological": 50.0,
+        "societal": 51.0
+      },
+      "overall": 44.6,
+      "velocity": {
+        "direction": "stable",
+        "value": 0.8
+      },
+      "early_warning_index": 25.3,
+      "predictions": {
+        "primary": {
+          "statement": "Peaceful protests likely near campuses/urban centers; small flashpoint risk",
+          "confidence": 0.58,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Online-to-street spillover risk during national news cycles",
+          "confidence": 0.44,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "New Hampshire",
+        "Vermont",
+        "New York",
+        "Connecticut",
+        "Rhode Island"
+      ],
+      "analyst_notes": "Massachusetts (USA): dominant vector societal; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Michigan",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 42.7,
+      "velocity": {
+        "direction": "stable",
+        "value": 1.2
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Sector-specific stress could affect employment/services",
+          "confidence": 0.51,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Price volatility may drive localized discontent",
+          "confidence": 0.43,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "Wisconsin",
+        "Indiana",
+        "Ohio",
+        "Ontario"
+      ],
+      "analyst_notes": "Michigan (USA): dominant vector economic; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Minnesota",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 42.7,
+      "velocity": {
+        "direction": "stable",
+        "value": 1.2
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Sector-specific stress could affect employment/services",
+          "confidence": 0.51,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Price volatility may drive localized discontent",
+          "confidence": 0.43,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "North Dakota",
+        "South Dakota",
+        "Iowa",
+        "Wisconsin",
+        "Manitoba",
+        "Ontario"
+      ],
+      "analyst_notes": "Minnesota (USA): dominant vector economic; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Mississippi",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 57.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 44.9,
+      "velocity": {
+        "direction": "stable",
+        "value": 0.5
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Weather-related disruptions possible (storms, wildfire smoke, flooding)",
+          "confidence": 0.62,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Localized infrastructure strain during severe events",
+          "confidence": 0.48,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Prepare storm/fire kits; verify alerts and insurance details"
+      ],
+      "neighbor_influence": [
+        "Tennessee",
+        "Alabama",
+        "Louisiana",
+        "Arkansas"
+      ],
+      "analyst_notes": "Mississippi (USA): dominant vector environmental; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Missouri",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 52.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 44.0,
+      "velocity": {
+        "direction": "stable",
+        "value": 0.8
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Weather-related disruptions possible (storms, wildfire smoke, flooding)",
+          "confidence": 0.62,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Localized infrastructure strain during severe events",
+          "confidence": 0.48,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "Iowa",
+        "Illinois",
+        "Kentucky",
+        "Tennessee",
+        "Arkansas",
+        "Oklahoma",
+        "Kansas",
+        "Nebraska"
+      ],
+      "analyst_notes": "Missouri (USA): dominant vector environmental; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Montana",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 55.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 44.5,
+      "velocity": {
+        "direction": "stable",
+        "value": 0.6
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Weather-related disruptions possible (storms, wildfire smoke, flooding)",
+          "confidence": 0.62,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Localized infrastructure strain during severe events",
+          "confidence": 0.48,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Prepare storm/fire kits; verify alerts and insurance details"
+      ],
+      "neighbor_influence": [
+        "North Dakota",
+        "South Dakota",
+        "Wyoming",
+        "Idaho",
+        "British Columbia",
+        "Alberta",
+        "Saskatchewan"
+      ],
+      "analyst_notes": "Montana (USA): dominant vector environmental; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Nebraska",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 52.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 44.0,
+      "velocity": {
+        "direction": "stable",
+        "value": 0.8
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Weather-related disruptions possible (storms, wildfire smoke, flooding)",
+          "confidence": 0.62,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Localized infrastructure strain during severe events",
+          "confidence": 0.48,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "South Dakota",
+        "Iowa",
+        "Missouri",
+        "Kansas",
+        "Colorado",
+        "Wyoming"
+      ],
+      "analyst_notes": "Nebraska (USA): dominant vector environmental; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Nevada",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 42.7,
+      "velocity": {
+        "direction": "stable",
+        "value": 1.2
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Sector-specific stress could affect employment/services",
+          "confidence": 0.51,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Price volatility may drive localized discontent",
+          "confidence": 0.43,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "Oregon",
+        "Idaho",
+        "Utah",
+        "Arizona",
+        "California"
+      ],
+      "analyst_notes": "Nevada (USA): dominant vector economic; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "New Hampshire",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 42.7,
+      "velocity": {
+        "direction": "stable",
+        "value": 1.2
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Sector-specific stress could affect employment/services",
+          "confidence": 0.51,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Price volatility may drive localized discontent",
+          "confidence": 0.43,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "Vermont",
+        "Maine",
+        "Massachusetts",
+        "Quebec"
+      ],
+      "analyst_notes": "New Hampshire (USA): dominant vector economic; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "New Jersey",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 37.0,
+        "technological": 50.0,
+        "societal": 51.0
+      },
+      "overall": 44.6,
+      "velocity": {
+        "direction": "stable",
+        "value": 0.8
+      },
+      "early_warning_index": 25.3,
+      "predictions": {
+        "primary": {
+          "statement": "Peaceful protests likely near campuses/urban centers; small flashpoint risk",
+          "confidence": 0.58,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Online-to-street spillover risk during national news cycles",
+          "confidence": 0.44,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "New York",
+        "Delaware",
+        "Pennsylvania"
+      ],
+      "analyst_notes": "New Jersey (USA): dominant vector societal; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "New Mexico",
+      "threat_vectors": {
+        "geopolitical": 48.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 44.5,
+      "velocity": {
+        "direction": "stable",
+        "value": 0.9
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Policy or enforcement shifts may create short-term frictions",
+          "confidence": 0.55,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Demonstrations near government facilities possible",
+          "confidence": 0.46,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "Arizona",
+        "Utah",
+        "Colorado",
+        "Oklahoma",
+        "Texas"
+      ],
+      "analyst_notes": "New Mexico (USA): dominant vector geopolitical; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "New York",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 37.0,
+        "technological": 50.0,
+        "societal": 51.0
+      },
+      "overall": 44.6,
+      "velocity": {
+        "direction": "stable",
+        "value": 0.8
+      },
+      "early_warning_index": 25.3,
+      "predictions": {
+        "primary": {
+          "statement": "Peaceful protests likely near campuses/urban centers; small flashpoint risk",
+          "confidence": 0.58,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Online-to-street spillover risk during national news cycles",
+          "confidence": 0.44,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "Pennsylvania",
+        "New Jersey",
+        "Connecticut",
+        "Massachusetts",
+        "Vermont",
+        "Ontario",
+        "Quebec"
+      ],
+      "analyst_notes": "New York (USA): dominant vector societal; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "North Carolina",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 57.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 44.9,
+      "velocity": {
+        "direction": "stable",
+        "value": 0.5
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Weather-related disruptions possible (storms, wildfire smoke, flooding)",
+          "confidence": 0.62,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Localized infrastructure strain during severe events",
+          "confidence": 0.48,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Prepare storm/fire kits; verify alerts and insurance details"
+      ],
+      "neighbor_influence": [
+        "Virginia",
+        "Tennessee",
+        "Georgia",
+        "South Carolina"
+      ],
+      "analyst_notes": "North Carolina (USA): dominant vector environmental; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "North Dakota",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 50.0,
+        "environmental": 52.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 44.9,
+      "velocity": {
+        "direction": "stable",
+        "value": 0.6
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Weather-related disruptions possible (storms, wildfire smoke, flooding)",
+          "confidence": 0.62,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Localized infrastructure strain during severe events",
+          "confidence": 0.48,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "Minnesota",
+        "South Dakota",
+        "Montana",
+        "Saskatchewan",
+        "Manitoba"
+      ],
+      "analyst_notes": "North Dakota (USA): dominant vector environmental; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Ohio",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 42.7,
+      "velocity": {
+        "direction": "stable",
+        "value": 1.2
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Sector-specific stress could affect employment/services",
+          "confidence": 0.51,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Price volatility may drive localized discontent",
+          "confidence": 0.43,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "Michigan",
+        "Indiana",
+        "Kentucky",
+        "West Virginia",
+        "Pennsylvania"
+      ],
+      "analyst_notes": "Ohio (USA): dominant vector economic; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Oklahoma",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 50.0,
+        "environmental": 52.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 44.9,
+      "velocity": {
+        "direction": "stable",
+        "value": 0.6
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Weather-related disruptions possible (storms, wildfire smoke, flooding)",
+          "confidence": 0.62,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Localized infrastructure strain during severe events",
+          "confidence": 0.48,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "Colorado",
+        "Kansas",
+        "Missouri",
+        "Arkansas",
+        "Texas",
+        "New Mexico"
+      ],
+      "analyst_notes": "Oklahoma (USA): dominant vector environmental; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Oregon",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 55.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 44.5,
+      "velocity": {
+        "direction": "stable",
+        "value": 0.6
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Weather-related disruptions possible (storms, wildfire smoke, flooding)",
+          "confidence": 0.62,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Localized infrastructure strain during severe events",
+          "confidence": 0.48,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Prepare storm/fire kits; verify alerts and insurance details"
+      ],
+      "neighbor_influence": [
+        "Washington",
+        "Idaho",
+        "Nevada",
+        "California"
+      ],
+      "analyst_notes": "Oregon (USA): dominant vector environmental; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Pennsylvania",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 37.0,
+        "technological": 50.0,
+        "societal": 51.0
+      },
+      "overall": 44.6,
+      "velocity": {
+        "direction": "stable",
+        "value": 0.8
+      },
+      "early_warning_index": 25.3,
+      "predictions": {
+        "primary": {
+          "statement": "Peaceful protests likely near campuses/urban centers; small flashpoint risk",
+          "confidence": 0.58,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Online-to-street spillover risk during national news cycles",
+          "confidence": 0.44,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "New York",
+        "New Jersey",
+        "Delaware",
+        "Maryland",
+        "West Virginia",
+        "Ohio"
+      ],
+      "analyst_notes": "Pennsylvania (USA): dominant vector societal; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Rhode Island",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 42.7,
+      "velocity": {
+        "direction": "stable",
+        "value": 1.2
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Sector-specific stress could affect employment/services",
+          "confidence": 0.51,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Price volatility may drive localized discontent",
+          "confidence": 0.43,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "Massachusetts",
+        "Connecticut"
+      ],
+      "analyst_notes": "Rhode Island (USA): dominant vector economic; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "South Carolina",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 57.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 44.9,
+      "velocity": {
+        "direction": "stable",
+        "value": 0.5
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Weather-related disruptions possible (storms, wildfire smoke, flooding)",
+          "confidence": 0.62,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Localized infrastructure strain during severe events",
+          "confidence": 0.48,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Prepare storm/fire kits; verify alerts and insurance details"
+      ],
+      "neighbor_influence": [
+        "North Carolina",
+        "Georgia"
+      ],
+      "analyst_notes": "South Carolina (USA): dominant vector environmental; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "South Dakota",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 52.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 44.0,
+      "velocity": {
+        "direction": "stable",
+        "value": 0.8
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Weather-related disruptions possible (storms, wildfire smoke, flooding)",
+          "confidence": 0.62,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Localized infrastructure strain during severe events",
+          "confidence": 0.48,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "North Dakota",
+        "Minnesota",
+        "Iowa",
+        "Nebraska",
+        "Wyoming",
+        "Montana"
+      ],
+      "analyst_notes": "South Dakota (USA): dominant vector environmental; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Tennessee",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 42.7,
+      "velocity": {
+        "direction": "stable",
+        "value": 1.2
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Sector-specific stress could affect employment/services",
+          "confidence": 0.51,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Price volatility may drive localized discontent",
+          "confidence": 0.43,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "Kentucky",
+        "Virginia",
+        "North Carolina",
+        "Georgia",
+        "Alabama",
+        "Mississippi",
+        "Arkansas",
+        "Missouri"
+      ],
+      "analyst_notes": "Tennessee (USA): dominant vector economic; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Texas",
+      "threat_vectors": {
+        "geopolitical": 48.0,
+        "economic": 50.0,
+        "environmental": 64.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 48.8,
+      "velocity": {
+        "direction": "stable",
+        "value": 0.5
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Weather-related disruptions possible (storms, wildfire smoke, flooding)",
+          "confidence": 0.62,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Localized infrastructure strain during severe events",
+          "confidence": 0.48,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Prepare storm/fire kits; verify alerts and insurance details"
+      ],
+      "neighbor_influence": [
+        "New Mexico",
+        "Oklahoma",
+        "Arkansas",
+        "Louisiana"
+      ],
+      "analyst_notes": "Texas (USA): dominant vector environmental; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Utah",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 42.7,
+      "velocity": {
+        "direction": "stable",
+        "value": 1.2
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Sector-specific stress could affect employment/services",
+          "confidence": 0.51,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Price volatility may drive localized discontent",
+          "confidence": 0.43,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "Idaho",
+        "Wyoming",
+        "Colorado",
+        "New Mexico",
+        "Arizona",
+        "Nevada"
+      ],
+      "analyst_notes": "Utah (USA): dominant vector economic; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Vermont",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 42.7,
+      "velocity": {
+        "direction": "stable",
+        "value": 1.2
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Sector-specific stress could affect employment/services",
+          "confidence": 0.51,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Price volatility may drive localized discontent",
+          "confidence": 0.43,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "New York",
+        "New Hampshire",
+        "Quebec"
+      ],
+      "analyst_notes": "Vermont (USA): dominant vector economic; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Virginia",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 42.7,
+      "velocity": {
+        "direction": "stable",
+        "value": 1.2
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Sector-specific stress could affect employment/services",
+          "confidence": 0.51,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Price volatility may drive localized discontent",
+          "confidence": 0.43,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "Maryland",
+        "North Carolina",
+        "Tennessee",
+        "Kentucky",
+        "West Virginia"
+      ],
+      "analyst_notes": "Virginia (USA): dominant vector economic; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Washington",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 55.0,
+        "biological": 37.0,
+        "technological": 50.0,
+        "societal": 51.0
+      },
+      "overall": 46.4,
+      "velocity": {
+        "direction": "stable",
+        "value": 0.2
+      },
+      "early_warning_index": 25.3,
+      "predictions": {
+        "primary": {
+          "statement": "Weather-related disruptions possible (storms, wildfire smoke, flooding)",
+          "confidence": 0.62,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Localized infrastructure strain during severe events",
+          "confidence": 0.48,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Prepare storm/fire kits; verify alerts and insurance details"
+      ],
+      "neighbor_influence": [
+        "Oregon",
+        "Idaho",
+        "British Columbia"
+      ],
+      "analyst_notes": "Washington (USA): dominant vector environmental; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "West Virginia",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 42.7,
+      "velocity": {
+        "direction": "stable",
+        "value": 1.2
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Sector-specific stress could affect employment/services",
+          "confidence": 0.51,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Price volatility may drive localized discontent",
+          "confidence": 0.43,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "Ohio",
+        "Pennsylvania",
+        "Maryland",
+        "Virginia",
+        "Kentucky"
+      ],
+      "analyst_notes": "West Virginia (USA): dominant vector economic; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Wisconsin",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 42.7,
+      "velocity": {
+        "direction": "stable",
+        "value": 1.2
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Sector-specific stress could affect employment/services",
+          "confidence": 0.51,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Price volatility may drive localized discontent",
+          "confidence": 0.43,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "Minnesota",
+        "Iowa",
+        "Illinois",
+        "Michigan"
+      ],
+      "analyst_notes": "Wisconsin (USA): dominant vector economic; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "US",
+      "adm1": "Wyoming",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 42.7,
+      "velocity": {
+        "direction": "stable",
+        "value": 1.2
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Sector-specific stress could affect employment/services",
+          "confidence": 0.51,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Price volatility may drive localized discontent",
+          "confidence": 0.43,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "State Capitol",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "Montana",
+        "South Dakota",
+        "Nebraska",
+        "Colorado",
+        "Utah",
+        "Idaho"
+      ],
+      "analyst_notes": "Wyoming (USA): dominant vector economic; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "CA",
+      "adm1": "Alberta",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 51.0,
+        "environmental": 55.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 45.6,
+      "velocity": {
+        "direction": "stable",
+        "value": 0.4
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Weather-related disruptions possible (storms, wildfire smoke, flooding)",
+          "confidence": 0.62,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Localized infrastructure strain during severe events",
+          "confidence": 0.48,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "Provincial/Territorial Capital",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Prepare storm/fire kits; verify alerts and insurance details"
+      ],
+      "neighbor_influence": [
+        "British Columbia",
+        "Saskatchewan",
+        "Northwest Territories",
+        "Montana",
+        "Washington",
+        "Idaho"
+      ],
+      "analyst_notes": "Alberta (Canada): dominant vector environmental; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "CA",
+      "adm1": "British Columbia",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 55.0,
+        "biological": 37.0,
+        "technological": 50.0,
+        "societal": 51.0
+      },
+      "overall": 46.4,
+      "velocity": {
+        "direction": "stable",
+        "value": 0.2
+      },
+      "early_warning_index": 25.3,
+      "predictions": {
+        "primary": {
+          "statement": "Weather-related disruptions possible (storms, wildfire smoke, flooding)",
+          "confidence": 0.62,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Localized infrastructure strain during severe events",
+          "confidence": 0.48,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "Provincial/Territorial Capital",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Prepare storm/fire kits; verify alerts and insurance details"
+      ],
+      "neighbor_influence": [
+        "Alberta",
+        "Yukon",
+        "Northwest Territories",
+        "Alaska",
+        "Washington",
+        "Idaho",
+        "Montana"
+      ],
+      "analyst_notes": "British Columbia (Canada): dominant vector environmental; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "CA",
+      "adm1": "Manitoba",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 42.7,
+      "velocity": {
+        "direction": "stable",
+        "value": 1.2
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Sector-specific stress could affect employment/services",
+          "confidence": 0.51,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Price volatility may drive localized discontent",
+          "confidence": 0.43,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "Provincial/Territorial Capital",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "Saskatchewan",
+        "Ontario",
+        "North Dakota",
+        "Minnesota"
+      ],
+      "analyst_notes": "Manitoba (Canada): dominant vector economic; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "CA",
+      "adm1": "New Brunswick",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 42.7,
+      "velocity": {
+        "direction": "stable",
+        "value": 1.2
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Sector-specific stress could affect employment/services",
+          "confidence": 0.51,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Price volatility may drive localized discontent",
+          "confidence": 0.43,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "Provincial/Territorial Capital",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "Quebec",
+        "Maine",
+        "Nova Scotia",
+        "Prince Edward Island"
+      ],
+      "analyst_notes": "New Brunswick (Canada): dominant vector economic; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "CA",
+      "adm1": "Newfoundland and Labrador",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 51.0,
+        "environmental": 45.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 43.8,
+      "velocity": {
+        "direction": "stable",
+        "value": 1.0
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Sector-specific stress could affect employment/services",
+          "confidence": 0.51,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Price volatility may drive localized discontent",
+          "confidence": 0.43,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "Provincial/Territorial Capital",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "Quebec"
+      ],
+      "analyst_notes": "Newfoundland and Labrador (Canada): dominant vector economic; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "CA",
+      "adm1": "Nova Scotia",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 42.7,
+      "velocity": {
+        "direction": "stable",
+        "value": 1.2
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Sector-specific stress could affect employment/services",
+          "confidence": 0.51,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Price volatility may drive localized discontent",
+          "confidence": 0.43,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "Provincial/Territorial Capital",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "New Brunswick",
+        "Prince Edward Island"
+      ],
+      "analyst_notes": "Nova Scotia (Canada): dominant vector economic; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "CA",
+      "adm1": "Ontario",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 37.0,
+        "technological": 54.0,
+        "societal": 51.0
+      },
+      "overall": 45.2,
+      "velocity": {
+        "direction": "stable",
+        "value": 0.8
+      },
+      "early_warning_index": 26.1,
+      "predictions": {
+        "primary": {
+          "statement": "Elevated cyber/nexus risk for regional services and SMEs",
+          "confidence": 0.54,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Increased phishing/social-engineering attempts",
+          "confidence": 0.47,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "Provincial/Territorial Capital",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "Manitoba",
+        "Quebec",
+        "Minnesota",
+        "Michigan",
+        "New York",
+        "Ohio",
+        "Pennsylvania"
+      ],
+      "analyst_notes": "Ontario (Canada): dominant vector technological; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "CA",
+      "adm1": "Prince Edward Island",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 42.7,
+      "velocity": {
+        "direction": "stable",
+        "value": 1.2
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Sector-specific stress could affect employment/services",
+          "confidence": 0.51,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Price volatility may drive localized discontent",
+          "confidence": 0.43,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "Provincial/Territorial Capital",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "New Brunswick",
+        "Nova Scotia"
+      ],
+      "analyst_notes": "Prince Edward Island (Canada): dominant vector economic; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "CA",
+      "adm1": "Quebec",
+      "threat_vectors": {
+        "geopolitical": 43.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 37.0,
+        "technological": 54.0,
+        "societal": 51.0
+      },
+      "overall": 45.9,
+      "velocity": {
+        "direction": "stable",
+        "value": 0.7
+      },
+      "early_warning_index": 26.1,
+      "predictions": {
+        "primary": {
+          "statement": "Elevated cyber/nexus risk for regional services and SMEs",
+          "confidence": 0.54,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Increased phishing/social-engineering attempts",
+          "confidence": 0.47,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "Provincial/Territorial Capital",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "Ontario",
+        "New Brunswick",
+        "Newfoundland and Labrador",
+        "Maine",
+        "New Hampshire",
+        "Vermont",
+        "New York"
+      ],
+      "analyst_notes": "Quebec (Canada): dominant vector technological; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "CA",
+      "adm1": "Saskatchewan",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 51.0,
+        "environmental": 45.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 43.8,
+      "velocity": {
+        "direction": "stable",
+        "value": 1.0
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Sector-specific stress could affect employment/services",
+          "confidence": 0.51,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Price volatility may drive localized discontent",
+          "confidence": 0.43,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "Provincial/Territorial Capital",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "Alberta",
+        "Manitoba",
+        "Montana",
+        "North Dakota"
+      ],
+      "analyst_notes": "Saskatchewan (Canada): dominant vector economic; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "CA",
+      "adm1": "Northwest Territories",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 42.7,
+      "velocity": {
+        "direction": "stable",
+        "value": 1.2
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Sector-specific stress could affect employment/services",
+          "confidence": 0.51,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Price volatility may drive localized discontent",
+          "confidence": 0.43,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "Provincial/Territorial Capital",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "Yukon",
+        "British Columbia",
+        "Alberta",
+        "Saskatchewan",
+        "Nunavut"
+      ],
+      "analyst_notes": "Northwest Territories (Canada): dominant vector economic; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "CA",
+      "adm1": "Nunavut",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 42.7,
+      "velocity": {
+        "direction": "stable",
+        "value": 1.2
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Sector-specific stress could affect employment/services",
+          "confidence": 0.51,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Price volatility may drive localized discontent",
+          "confidence": 0.43,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "Provincial/Territorial Capital",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "Northwest Territories",
+        "Manitoba",
+        "Ontario",
+        "Quebec"
+      ],
+      "analyst_notes": "Nunavut (Canada): dominant vector economic; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    },
+    {
+      "country": "CA",
+      "adm1": "Yukon",
+      "threat_vectors": {
+        "geopolitical": 40.0,
+        "economic": 45.0,
+        "environmental": 45.0,
+        "biological": 35.0,
+        "technological": 45.0,
+        "societal": 45.0
+      },
+      "overall": 42.7,
+      "velocity": {
+        "direction": "stable",
+        "value": 1.2
+      },
+      "early_warning_index": 22.5,
+      "predictions": {
+        "primary": {
+          "statement": "Sector-specific stress could affect employment/services",
+          "confidence": 0.51,
+          "horizon_days": 30
+        },
+        "secondary": {
+          "statement": "Price volatility may drive localized discontent",
+          "confidence": 0.43,
+          "horizon_days": 60
+        }
+      },
+      "protest_intelligence": {
+        "status": "monitoring",
+        "risk_level": "low",
+        "expected_windows": [],
+        "types": [
+          "Rally",
+          "Campus Demonstration"
+        ],
+        "location_tags": [
+          "Provincial/Territorial Capital",
+          "Largest City",
+          "University Areas"
+        ],
+        "triggers": [
+          "National politics",
+          "Policing incident",
+          "Labor action",
+          "International conflict spillover"
+        ],
+        "escalation_risk": {
+          "value": 0.1,
+          "notes": "Derived from societal/online tension indicators"
+        },
+        "monitoring_sources": [
+          "analyst_sweep",
+          "open_source_media"
+        ]
+      },
+      "mitigation_guidance": [
+        "Maintain basic readiness: 3-day supplies and a family comms plan"
+      ],
+      "neighbor_influence": [
+        "British Columbia",
+        "Alaska",
+        "Northwest Territories"
+      ],
+      "analyst_notes": "Yukon (Canada): dominant vector economic; velocity stable.",
+      "last_update_utc": "2025-09-21T14:49:00Z"
+    }
+  ],
+  "regional_threats": {
+    "united_states": {
+      "Alabama": {
+        "threat_level": 2,
+        "confidence": 70,
+        "categories": [
+          "environmental",
+          "economic"
+        ],
+        "notes": "Alabama (USA): dominant vector environmental; velocity stable.",
+        "neighbor_influence": [
+          "Tennessee",
+          "Georgia",
+          "Florida",
+          "Mississippi"
+        ]
+      },
+      "Alaska": {
+        "threat_level": 2,
+        "confidence": 71,
+        "categories": [
+          "economic",
+          "environmental"
+        ],
+        "notes": "Alaska (USA): dominant vector economic; velocity stable.",
+        "neighbor_influence": [
+          "British Columbia",
+          "Yukon"
+        ]
+      },
+      "Arizona": {
+        "threat_level": 2,
+        "confidence": 71,
+        "categories": [
+          "geopolitical",
+          "economic"
+        ],
+        "notes": "Arizona (USA): dominant vector geopolitical; velocity stable.",
+        "neighbor_influence": [
+          "California",
+          "Nevada",
+          "Utah",
+          "New Mexico"
+        ]
+      },
+      "Arkansas": {
+        "threat_level": 2,
+        "confidence": 70,
+        "categories": [
+          "environmental",
+          "economic"
+        ],
+        "notes": "Arkansas (USA): dominant vector environmental; velocity stable.",
+        "neighbor_influence": [
+          "Missouri",
+          "Tennessee",
+          "Mississippi",
+          "Louisiana",
+          "Texas",
+          "Oklahoma"
+        ]
+      },
+      "California": {
+        "threat_level": 3,
+        "confidence": 73,
+        "categories": [
+          "environmental",
+          "societal"
+        ],
+        "notes": "California (USA): dominant vector environmental; velocity stable.",
+        "neighbor_influence": [
+          "Oregon",
+          "Nevada",
+          "Arizona"
+        ]
+      },
+      "Colorado": {
+        "threat_level": 3,
+        "confidence": 69,
+        "categories": [
+          "environmental",
+          "economic"
+        ],
+        "notes": "Colorado (USA): dominant vector environmental; velocity stable.",
+        "neighbor_influence": [
+          "Wyoming",
+          "Nebraska",
+          "Kansas",
+          "Oklahoma",
+          "New Mexico",
+          "Arizona",
+          "Utah"
+        ]
+      },
+      "Connecticut": {
+        "threat_level": 2,
+        "confidence": 71,
+        "categories": [
+          "economic",
+          "environmental"
+        ],
+        "notes": "Connecticut (USA): dominant vector economic; velocity stable.",
+        "neighbor_influence": [
+          "New York",
+          "Massachusetts",
+          "Rhode Island"
+        ]
+      },
+      "Delaware": {
+        "threat_level": 2,
+        "confidence": 71,
+        "categories": [
+          "economic",
+          "environmental"
+        ],
+        "notes": "Delaware (USA): dominant vector economic; velocity stable.",
+        "neighbor_influence": [
+          "Maryland",
+          "Pennsylvania",
+          "New Jersey"
+        ]
+      },
+      "Florida": {
+        "threat_level": 2,
+        "confidence": 70,
+        "categories": [
+          "environmental",
+          "economic"
+        ],
+        "notes": "Florida (USA): dominant vector environmental; velocity stable.",
+        "neighbor_influence": [
+          "Georgia",
+          "Alabama"
+        ]
+      },
+      "Georgia": {
+        "threat_level": 2,
+        "confidence": 70,
+        "categories": [
+          "environmental",
+          "economic"
+        ],
+        "notes": "Georgia (USA): dominant vector environmental; velocity stable.",
+        "neighbor_influence": [
+          "Tennessee",
+          "North Carolina",
+          "South Carolina",
+          "Florida",
+          "Alabama"
+        ]
+      },
+      "Hawaii": {
+        "threat_level": 2,
+        "confidence": 71,
+        "categories": [
+          "economic",
+          "environmental"
+        ],
+        "notes": "Hawaii (USA): dominant vector economic; velocity stable.",
+        "neighbor_influence": []
+      },
+      "Idaho": {
+        "threat_level": 2,
+        "confidence": 70,
+        "categories": [
+          "environmental",
+          "economic"
+        ],
+        "notes": "Idaho (USA): dominant vector environmental; velocity stable.",
+        "neighbor_influence": [
+          "Montana",
+          "Wyoming",
+          "Utah",
+          "Nevada",
+          "Oregon",
+          "Washington",
+          "British Columbia"
+        ]
+      },
+      "Illinois": {
+        "threat_level": 2,
+        "confidence": 73,
+        "categories": [
+          "societal",
+          "technological"
+        ],
+        "notes": "Illinois (USA): dominant vector societal; velocity stable.",
+        "neighbor_influence": [
+          "Wisconsin",
+          "Iowa",
+          "Missouri",
+          "Kentucky",
+          "Indiana",
+          "Michigan"
+        ]
+      },
+      "Indiana": {
+        "threat_level": 2,
+        "confidence": 71,
+        "categories": [
+          "economic",
+          "environmental"
+        ],
+        "notes": "Indiana (USA): dominant vector economic; velocity stable.",
+        "neighbor_influence": [
+          "Michigan",
+          "Ohio",
+          "Kentucky",
+          "Illinois"
+        ]
+      },
+      "Iowa": {
+        "threat_level": 2,
+        "confidence": 70,
+        "categories": [
+          "environmental",
+          "economic"
+        ],
+        "notes": "Iowa (USA): dominant vector environmental; velocity stable.",
+        "neighbor_influence": [
+          "Minnesota",
+          "South Dakota",
+          "Nebraska",
+          "Missouri",
+          "Illinois",
+          "Wisconsin"
+        ]
+      },
+      "Kansas": {
+        "threat_level": 2,
+        "confidence": 70,
+        "categories": [
+          "environmental",
+          "economic"
+        ],
+        "notes": "Kansas (USA): dominant vector environmental; velocity stable.",
+        "neighbor_influence": [
+          "Nebraska",
+          "Missouri",
+          "Oklahoma",
+          "Colorado"
+        ]
+      },
+      "Kentucky": {
+        "threat_level": 2,
+        "confidence": 71,
+        "categories": [
+          "economic",
+          "environmental"
+        ],
+        "notes": "Kentucky (USA): dominant vector economic; velocity stable.",
+        "neighbor_influence": [
+          "Illinois",
+          "Indiana",
+          "Ohio",
+          "West Virginia",
+          "Virginia",
+          "Tennessee",
+          "Missouri"
+        ]
+      },
+      "Louisiana": {
+        "threat_level": 2,
+        "confidence": 70,
+        "categories": [
+          "environmental",
+          "economic"
+        ],
+        "notes": "Louisiana (USA): dominant vector environmental; velocity stable.",
+        "neighbor_influence": [
+          "Texas",
+          "Arkansas",
+          "Mississippi"
+        ]
+      },
+      "Maine": {
+        "threat_level": 2,
+        "confidence": 71,
+        "categories": [
+          "economic",
+          "environmental"
+        ],
+        "notes": "Maine (USA): dominant vector economic; velocity stable.",
+        "neighbor_influence": [
+          "New Hampshire",
+          "Quebec",
+          "New Brunswick"
+        ]
+      },
+      "Maryland": {
+        "threat_level": 2,
+        "confidence": 71,
+        "categories": [
+          "economic",
+          "environmental"
+        ],
+        "notes": "Maryland (USA): dominant vector economic; velocity stable.",
+        "neighbor_influence": [
+          "Pennsylvania",
+          "Delaware",
+          "Virginia",
+          "West Virginia"
+        ]
+      },
+      "Massachusetts": {
+        "threat_level": 2,
+        "confidence": 73,
+        "categories": [
+          "societal",
+          "technological"
+        ],
+        "notes": "Massachusetts (USA): dominant vector societal; velocity stable.",
+        "neighbor_influence": [
+          "New Hampshire",
+          "Vermont",
+          "New York",
+          "Connecticut",
+          "Rhode Island"
+        ]
+      },
+      "Michigan": {
+        "threat_level": 2,
+        "confidence": 71,
+        "categories": [
+          "economic",
+          "environmental"
+        ],
+        "notes": "Michigan (USA): dominant vector economic; velocity stable.",
+        "neighbor_influence": [
+          "Wisconsin",
+          "Indiana",
+          "Ohio",
+          "Ontario"
+        ]
+      },
+      "Minnesota": {
+        "threat_level": 2,
+        "confidence": 71,
+        "categories": [
+          "economic",
+          "environmental"
+        ],
+        "notes": "Minnesota (USA): dominant vector economic; velocity stable.",
+        "neighbor_influence": [
+          "North Dakota",
+          "South Dakota",
+          "Iowa",
+          "Wisconsin",
+          "Manitoba",
+          "Ontario"
+        ]
+      },
+      "Mississippi": {
+        "threat_level": 2,
+        "confidence": 70,
+        "categories": [
+          "environmental",
+          "economic"
+        ],
+        "notes": "Mississippi (USA): dominant vector environmental; velocity stable.",
+        "neighbor_influence": [
+          "Tennessee",
+          "Alabama",
+          "Louisiana",
+          "Arkansas"
+        ]
+      },
+      "Missouri": {
+        "threat_level": 2,
+        "confidence": 70,
+        "categories": [
+          "environmental",
+          "economic"
+        ],
+        "notes": "Missouri (USA): dominant vector environmental; velocity stable.",
+        "neighbor_influence": [
+          "Iowa",
+          "Illinois",
+          "Kentucky",
+          "Tennessee",
+          "Arkansas",
+          "Oklahoma",
+          "Kansas",
+          "Nebraska"
+        ]
+      },
+      "Montana": {
+        "threat_level": 2,
+        "confidence": 70,
+        "categories": [
+          "environmental",
+          "economic"
+        ],
+        "notes": "Montana (USA): dominant vector environmental; velocity stable.",
+        "neighbor_influence": [
+          "North Dakota",
+          "South Dakota",
+          "Wyoming",
+          "Idaho",
+          "British Columbia",
+          "Alberta",
+          "Saskatchewan"
+        ]
+      },
+      "Nebraska": {
+        "threat_level": 2,
+        "confidence": 70,
+        "categories": [
+          "environmental",
+          "economic"
+        ],
+        "notes": "Nebraska (USA): dominant vector environmental; velocity stable.",
+        "neighbor_influence": [
+          "South Dakota",
+          "Iowa",
+          "Missouri",
+          "Kansas",
+          "Colorado",
+          "Wyoming"
+        ]
+      },
+      "Nevada": {
+        "threat_level": 2,
+        "confidence": 71,
+        "categories": [
+          "economic",
+          "environmental"
+        ],
+        "notes": "Nevada (USA): dominant vector economic; velocity stable.",
+        "neighbor_influence": [
+          "Oregon",
+          "Idaho",
+          "Utah",
+          "Arizona",
+          "California"
+        ]
+      },
+      "New Hampshire": {
+        "threat_level": 2,
+        "confidence": 71,
+        "categories": [
+          "economic",
+          "environmental"
+        ],
+        "notes": "New Hampshire (USA): dominant vector economic; velocity stable.",
+        "neighbor_influence": [
+          "Vermont",
+          "Maine",
+          "Massachusetts",
+          "Quebec"
+        ]
+      },
+      "New Jersey": {
+        "threat_level": 2,
+        "confidence": 73,
+        "categories": [
+          "societal",
+          "technological"
+        ],
+        "notes": "New Jersey (USA): dominant vector societal; velocity stable.",
+        "neighbor_influence": [
+          "New York",
+          "Delaware",
+          "Pennsylvania"
+        ]
+      },
+      "New Mexico": {
+        "threat_level": 2,
+        "confidence": 71,
+        "categories": [
+          "geopolitical",
+          "economic"
+        ],
+        "notes": "New Mexico (USA): dominant vector geopolitical; velocity stable.",
+        "neighbor_influence": [
+          "Arizona",
+          "Utah",
+          "Colorado",
+          "Oklahoma",
+          "Texas"
+        ]
+      },
+      "New York": {
+        "threat_level": 2,
+        "confidence": 73,
+        "categories": [
+          "societal",
+          "technological"
+        ],
+        "notes": "New York (USA): dominant vector societal; velocity stable.",
+        "neighbor_influence": [
+          "Pennsylvania",
+          "New Jersey",
+          "Connecticut",
+          "Massachusetts",
+          "Vermont",
+          "Ontario",
+          "Quebec"
+        ]
+      },
+      "North Carolina": {
+        "threat_level": 2,
+        "confidence": 70,
+        "categories": [
+          "environmental",
+          "economic"
+        ],
+        "notes": "North Carolina (USA): dominant vector environmental; velocity stable.",
+        "neighbor_influence": [
+          "Virginia",
+          "Tennessee",
+          "Georgia",
+          "South Carolina"
+        ]
+      },
+      "North Dakota": {
+        "threat_level": 2,
+        "confidence": 70,
+        "categories": [
+          "environmental",
+          "economic"
+        ],
+        "notes": "North Dakota (USA): dominant vector environmental; velocity stable.",
+        "neighbor_influence": [
+          "Minnesota",
+          "South Dakota",
+          "Montana",
+          "Saskatchewan",
+          "Manitoba"
+        ]
+      },
+      "Ohio": {
+        "threat_level": 2,
+        "confidence": 71,
+        "categories": [
+          "economic",
+          "environmental"
+        ],
+        "notes": "Ohio (USA): dominant vector economic; velocity stable.",
+        "neighbor_influence": [
+          "Michigan",
+          "Indiana",
+          "Kentucky",
+          "West Virginia",
+          "Pennsylvania"
+        ]
+      },
+      "Oklahoma": {
+        "threat_level": 2,
+        "confidence": 70,
+        "categories": [
+          "environmental",
+          "economic"
+        ],
+        "notes": "Oklahoma (USA): dominant vector environmental; velocity stable.",
+        "neighbor_influence": [
+          "Colorado",
+          "Kansas",
+          "Missouri",
+          "Arkansas",
+          "Texas",
+          "New Mexico"
+        ]
+      },
+      "Oregon": {
+        "threat_level": 2,
+        "confidence": 70,
+        "categories": [
+          "environmental",
+          "economic"
+        ],
+        "notes": "Oregon (USA): dominant vector environmental; velocity stable.",
+        "neighbor_influence": [
+          "Washington",
+          "Idaho",
+          "Nevada",
+          "California"
+        ]
+      },
+      "Pennsylvania": {
+        "threat_level": 2,
+        "confidence": 73,
+        "categories": [
+          "societal",
+          "technological"
+        ],
+        "notes": "Pennsylvania (USA): dominant vector societal; velocity stable.",
+        "neighbor_influence": [
+          "New York",
+          "New Jersey",
+          "Delaware",
+          "Maryland",
+          "West Virginia",
+          "Ohio"
+        ]
+      },
+      "Rhode Island": {
+        "threat_level": 2,
+        "confidence": 71,
+        "categories": [
+          "economic",
+          "environmental"
+        ],
+        "notes": "Rhode Island (USA): dominant vector economic; velocity stable.",
+        "neighbor_influence": [
+          "Massachusetts",
+          "Connecticut"
+        ]
+      },
+      "South Carolina": {
+        "threat_level": 2,
+        "confidence": 70,
+        "categories": [
+          "environmental",
+          "economic"
+        ],
+        "notes": "South Carolina (USA): dominant vector environmental; velocity stable.",
+        "neighbor_influence": [
+          "North Carolina",
+          "Georgia"
+        ]
+      },
+      "South Dakota": {
+        "threat_level": 2,
+        "confidence": 70,
+        "categories": [
+          "environmental",
+          "economic"
+        ],
+        "notes": "South Dakota (USA): dominant vector environmental; velocity stable.",
+        "neighbor_influence": [
+          "North Dakota",
+          "Minnesota",
+          "Iowa",
+          "Nebraska",
+          "Wyoming",
+          "Montana"
+        ]
+      },
+      "Tennessee": {
+        "threat_level": 2,
+        "confidence": 71,
+        "categories": [
+          "economic",
+          "environmental"
+        ],
+        "notes": "Tennessee (USA): dominant vector economic; velocity stable.",
+        "neighbor_influence": [
+          "Kentucky",
+          "Virginia",
+          "North Carolina",
+          "Georgia",
+          "Alabama",
+          "Mississippi",
+          "Arkansas",
+          "Missouri"
+        ]
+      },
+      "Texas": {
+        "threat_level": 3,
+        "confidence": 69,
+        "categories": [
+          "environmental",
+          "economic"
+        ],
+        "notes": "Texas (USA): dominant vector environmental; velocity stable.",
+        "neighbor_influence": [
+          "New Mexico",
+          "Oklahoma",
+          "Arkansas",
+          "Louisiana"
+        ]
+      },
+      "Utah": {
+        "threat_level": 2,
+        "confidence": 71,
+        "categories": [
+          "economic",
+          "environmental"
+        ],
+        "notes": "Utah (USA): dominant vector economic; velocity stable.",
+        "neighbor_influence": [
+          "Idaho",
+          "Wyoming",
+          "Colorado",
+          "New Mexico",
+          "Arizona",
+          "Nevada"
+        ]
+      },
+      "Vermont": {
+        "threat_level": 2,
+        "confidence": 71,
+        "categories": [
+          "economic",
+          "environmental"
+        ],
+        "notes": "Vermont (USA): dominant vector economic; velocity stable.",
+        "neighbor_influence": [
+          "New York",
+          "New Hampshire",
+          "Quebec"
+        ]
+      },
+      "Virginia": {
+        "threat_level": 2,
+        "confidence": 71,
+        "categories": [
+          "economic",
+          "environmental"
+        ],
+        "notes": "Virginia (USA): dominant vector economic; velocity stable.",
+        "neighbor_influence": [
+          "Maryland",
+          "North Carolina",
+          "Tennessee",
+          "Kentucky",
+          "West Virginia"
+        ]
+      },
+      "Washington": {
+        "threat_level": 3,
+        "confidence": 73,
+        "categories": [
+          "environmental",
+          "societal"
+        ],
+        "notes": "Washington (USA): dominant vector environmental; velocity stable.",
+        "neighbor_influence": [
+          "Oregon",
+          "Idaho",
+          "British Columbia"
+        ]
+      },
+      "West Virginia": {
+        "threat_level": 2,
+        "confidence": 71,
+        "categories": [
+          "economic",
+          "environmental"
+        ],
+        "notes": "West Virginia (USA): dominant vector economic; velocity stable.",
+        "neighbor_influence": [
+          "Ohio",
+          "Pennsylvania",
+          "Maryland",
+          "Virginia",
+          "Kentucky"
+        ]
+      },
+      "Wisconsin": {
+        "threat_level": 2,
+        "confidence": 71,
+        "categories": [
+          "economic",
+          "environmental"
+        ],
+        "notes": "Wisconsin (USA): dominant vector economic; velocity stable.",
+        "neighbor_influence": [
+          "Minnesota",
+          "Iowa",
+          "Illinois",
+          "Michigan"
+        ]
+      },
+      "Wyoming": {
+        "threat_level": 2,
+        "confidence": 71,
+        "categories": [
+          "economic",
+          "environmental"
+        ],
+        "notes": "Wyoming (USA): dominant vector economic; velocity stable.",
+        "neighbor_influence": [
+          "Montana",
+          "South Dakota",
+          "Nebraska",
+          "Colorado",
+          "Utah",
+          "Idaho"
+        ]
+      }
+    },
+    "canada": {
+      "Alberta": {
+        "threat_level": 3,
+        "confidence": 70,
+        "categories": [
+          "environmental",
+          "economic"
+        ],
+        "notes": "Alberta (Canada): dominant vector environmental; velocity stable.",
+        "neighbor_influence": [
+          "British Columbia",
+          "Saskatchewan",
+          "Northwest Territories",
+          "Montana",
+          "Washington",
+          "Idaho"
+        ]
+      },
+      "British Columbia": {
+        "threat_level": 3,
+        "confidence": 73,
+        "categories": [
+          "environmental",
+          "societal"
+        ],
+        "notes": "British Columbia (Canada): dominant vector environmental; velocity stable.",
+        "neighbor_influence": [
+          "Alberta",
+          "Yukon",
+          "Northwest Territories",
+          "Alaska",
+          "Washington",
+          "Idaho",
+          "Montana"
+        ]
+      },
+      "Manitoba": {
+        "threat_level": 2,
+        "confidence": 71,
+        "categories": [
+          "economic",
+          "environmental"
+        ],
+        "notes": "Manitoba (Canada): dominant vector economic; velocity stable.",
+        "neighbor_influence": [
+          "Saskatchewan",
+          "Ontario",
+          "North Dakota",
+          "Minnesota"
+        ]
+      },
+      "New Brunswick": {
+        "threat_level": 2,
+        "confidence": 71,
+        "categories": [
+          "economic",
+          "environmental"
+        ],
+        "notes": "New Brunswick (Canada): dominant vector economic; velocity stable.",
+        "neighbor_influence": [
+          "Quebec",
+          "Maine",
+          "Nova Scotia",
+          "Prince Edward Island"
+        ]
+      },
+      "Newfoundland and Labrador": {
+        "threat_level": 2,
+        "confidence": 70,
+        "categories": [
+          "economic",
+          "environmental"
+        ],
+        "notes": "Newfoundland and Labrador (Canada): dominant vector economic; velocity stable.",
+        "neighbor_influence": [
+          "Quebec"
+        ]
+      },
+      "Nova Scotia": {
+        "threat_level": 2,
+        "confidence": 71,
+        "categories": [
+          "economic",
+          "environmental"
+        ],
+        "notes": "Nova Scotia (Canada): dominant vector economic; velocity stable.",
+        "neighbor_influence": [
+          "New Brunswick",
+          "Prince Edward Island"
+        ]
+      },
+      "Ontario": {
+        "threat_level": 3,
+        "confidence": 74,
+        "categories": [
+          "technological",
+          "societal"
+        ],
+        "notes": "Ontario (Canada): dominant vector technological; velocity stable.",
+        "neighbor_influence": [
+          "Manitoba",
+          "Quebec",
+          "Minnesota",
+          "Michigan",
+          "New York",
+          "Ohio",
+          "Pennsylvania"
+        ]
+      },
+      "Prince Edward Island": {
+        "threat_level": 2,
+        "confidence": 71,
+        "categories": [
+          "economic",
+          "environmental"
+        ],
+        "notes": "Prince Edward Island (Canada): dominant vector economic; velocity stable.",
+        "neighbor_influence": [
+          "New Brunswick",
+          "Nova Scotia"
+        ]
+      },
+      "Quebec": {
+        "threat_level": 3,
+        "confidence": 74,
+        "categories": [
+          "technological",
+          "societal"
+        ],
+        "notes": "Quebec (Canada): dominant vector technological; velocity stable.",
+        "neighbor_influence": [
+          "Ontario",
+          "New Brunswick",
+          "Newfoundland and Labrador",
+          "Maine",
+          "New Hampshire",
+          "Vermont",
+          "New York"
+        ]
+      },
+      "Saskatchewan": {
+        "threat_level": 2,
+        "confidence": 70,
+        "categories": [
+          "economic",
+          "environmental"
+        ],
+        "notes": "Saskatchewan (Canada): dominant vector economic; velocity stable.",
+        "neighbor_influence": [
+          "Alberta",
+          "Manitoba",
+          "Montana",
+          "North Dakota"
+        ]
+      },
+      "Northwest Territories": {
+        "threat_level": 2,
+        "confidence": 71,
+        "categories": [
+          "economic",
+          "environmental"
+        ],
+        "notes": "Northwest Territories (Canada): dominant vector economic; velocity stable.",
+        "neighbor_influence": [
+          "Yukon",
+          "British Columbia",
+          "Alberta",
+          "Saskatchewan",
+          "Nunavut"
+        ]
+      },
+      "Nunavut": {
+        "threat_level": 2,
+        "confidence": 71,
+        "categories": [
+          "economic",
+          "environmental"
+        ],
+        "notes": "Nunavut (Canada): dominant vector economic; velocity stable.",
+        "neighbor_influence": [
+          "Northwest Territories",
+          "Manitoba",
+          "Ontario",
+          "Quebec"
+        ]
+      },
+      "Yukon": {
+        "threat_level": 2,
+        "confidence": 71,
+        "categories": [
+          "economic",
+          "environmental"
+        ],
+        "notes": "Yukon (Canada): dominant vector economic; velocity stable.",
+        "neighbor_influence": [
+          "British Columbia",
+          "Alaska",
+          "Northwest Territories"
+        ]
+      }
+    }
+  },
+  "accuracy_tracking": {
+    "window_days": 90,
+    "closed_predictions": {
+      "total": 0,
+      "correct": 0,
+      "accuracy": null
+    },
+    "open_predictions": 63
+  },
+  "donations": {
+    "support_email": "protocol.babylon2025@protonmail.com",
+    "message": "If this daily intelligence is valuable, consider supporting continued analyst sweeps."
+  }
+}
